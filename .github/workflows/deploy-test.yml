@@ -9,7 +9,7 @@ jobs:
   deploy:
     name: Build and Deploy to Cloud Run
     runs-on: ubuntu-latest
-    
+    environment: test
     # Required for OIDC authentication
     permissions:
       contents: 'read'
