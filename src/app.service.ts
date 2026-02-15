@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello() {
     return {
-      message: 'Hello World - 3 from ' + (process.env.DATABASE_USER ?? 'No Database User')
+      message: 'Hello World - 4 from ' + (process.env.DATABASE_USER ?? 'No Database User')
     };
   }
 }
